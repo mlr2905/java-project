@@ -1,0 +1,8 @@
+tvmaze:
+  url: https://api.tvmaze.com
+maxvip: 5
+cache_on: false
+redis:
+  host: localhost
+  port: 6377
+  ttl: 72000

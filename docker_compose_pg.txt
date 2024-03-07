@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: admin # Use a secure password
+      POSTGRES_DB: postgres # Your desired database name
+      POSTGRES_USER: postgres # Your desired user name
+    ports:
+      - "5433:5432"
+
