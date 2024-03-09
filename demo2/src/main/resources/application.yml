@@ -1,0 +1,5 @@
+cache_on: true
+redis:
+  host: localhost
+  port: 6377
+  ttl: 72000
